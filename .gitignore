@@ -1,0 +1,13 @@
+node_modules/
+dist/
+build/
+.env
+*.log
+
+# Vector DB & Local Data
+.chroma/
+data/raw/*
+!data/raw/.gitkeep
+
+# macOS System Files
+.DS_Store
